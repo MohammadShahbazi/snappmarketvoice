@@ -2,7 +2,7 @@
 % Please edit documentation in R/f_functions.R
 \name{f_discrets}
 \alias{f_discrets}
-\title{Load a Matrix}
+\title{This function is based on functions in tuneR package only faster check!}
 \usage{
 f_discrets(x, symb = 5, collapse = TRUE, plateau = 1)
 }
