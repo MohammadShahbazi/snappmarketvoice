@@ -23,9 +23,8 @@ devtools::install_github("MohammadShahbazi/snappmarketvoice")
 
 ## Usage
 
-All devtools functions accept a path as an argument, e.g.
-`load_all("path/to/mypkg")`. If you don't specify a path, devtools will
-look in the current working directory - this is a recommended practice.
+
+For analysing voices manytimes we need to consider many voices, so even a little imporvment in voices will increase performance exponentially.
 
 ### Frequent development tasks:
 
