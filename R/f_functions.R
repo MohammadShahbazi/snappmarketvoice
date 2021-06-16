@@ -1,4 +1,4 @@
-#' Load a Matrix
+#' This function is based on functions in tuneR package only faster
 #'
 #' This function loads a file as a matrix. It assumes that the first column
 #' contains the rownames and the subsequent columns are the sample identifiers.
@@ -61,3 +61,4 @@ f_fpeaks=function (spec){
   colnames(res) <- c("freq", "amp")
   return(res)
 }
+
