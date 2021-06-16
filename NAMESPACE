@@ -2,3 +2,4 @@
 
 export(f_discrets)
 export(f_fpeaks)
+import(data.table)

@@ -11,9 +11,9 @@
 f_discrets <- function(x, symb = 5, collapse = TRUE, plateau = 1){
   if (symb != 3 && symb != 5)
     stop("'symb' should be set to 3 or 5")
-  x <- inputw(wave = x, f = NULL)$w
-
-  y=data.table::as.data.table(x)
+  TempTable <- inputw(wave = x, f = NULL)$w
+  .datatable.aware = TRUE
+  y=data.table(TempTable)
   y[ , plus1 := shift(V1 ,type = "lead")]
   y[ , plus2 := shift(plus1 ,type = "lead")]
   y$text=""
